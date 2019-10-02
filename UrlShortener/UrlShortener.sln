@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapall", "Mapall\Mapall.csproj", "{581EFCE4-7F18-4227-B87B-AF47E00CA4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapall.Tests", "Mapall.Tests\Mapall.Tests.csproj", "{F31FC648-C5CC-4490-9649-EAFDE564485A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{581EFCE4-7F18-4227-B87B-AF47E00CA4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581EFCE4-7F18-4227-B87B-AF47E00CA4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581EFCE4-7F18-4227-B87B-AF47E00CA4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581EFCE4-7F18-4227-B87B-AF47E00CA4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31FC648-C5CC-4490-9649-EAFDE564485A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31FC648-C5CC-4490-9649-EAFDE564485A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31FC648-C5CC-4490-9649-EAFDE564485A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31FC648-C5CC-4490-9649-EAFDE564485A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C10A5856-CEF2-4C7A-BB61-D7E8D42B2D25}
+	EndGlobalSection
+EndGlobal

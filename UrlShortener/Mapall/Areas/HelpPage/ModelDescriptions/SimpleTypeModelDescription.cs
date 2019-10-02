@@ -1,0 +1,6 @@
+namespace Mapall.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}

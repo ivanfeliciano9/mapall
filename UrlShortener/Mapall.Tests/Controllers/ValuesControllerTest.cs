@@ -36,7 +36,7 @@ namespace Mapall.Tests.Controllers
             ValuesController controller = new ValuesController();
 
             // Agir
-            string result = controller.Get(5);
+            string result = controller.Get("5");
 
             // Declarar
             Assert.AreEqual("value", result);
@@ -54,28 +54,8 @@ namespace Mapall.Tests.Controllers
             // Declarar
         }
 
-        [TestMethod]
-        public void Put()
-        {
-            // Organizar
-            ValuesController controller = new ValuesController();
+     
 
-            // Agir
-            controller.Put(5, "value");
-
-            // Declarar
-        }
-
-        [TestMethod]
-        public void Delete()
-        {
-            // Organizar
-            ValuesController controller = new ValuesController();
-
-            // Agir
-            controller.Delete(5);
-
-            // Declarar
-        }
+      
     }
 }

@@ -16,9 +16,10 @@ namespace Mapall.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public string Get(string url)
         {
-            return "value";
+            //get from database the original url "Full";             
+            return "https://example.com/pd";
         }
 
         // POST api/values
@@ -26,14 +27,7 @@ namespace Mapall.Controllers
         {
         }
 
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
 
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
-        }
+
     }
 }
